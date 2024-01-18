@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="RegressionTests">
+  <test name="Test">
+	  <groups>
+    <run>
+      <include name="regression"/>
+    </run>
+  </groups>
+  
+    <classes>
+      <class name="ui.BeforeAfterMethods"/>
+      <class name="ui.LoginTest"/>
+      <class name="ui.GroupsDemoTest"/>
+      <class name="ui.BeforeAfterTests"/>
+      <class name="ui.VerifyTitleTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
+
+<!--//Whatever classes have groups of regression will be executed and show in the console-->

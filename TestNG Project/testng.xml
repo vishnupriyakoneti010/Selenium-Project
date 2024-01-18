@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="UI Tests">
+  <test name="Functional Testing">
+    <classes>
+    <class name="ui.BeforeAfterMethods"/>
+      <class name="ui.LoginTest"/>
+      <class name="ui.GroupsDemoTest"/>
+      <class name="ui.BeforeAfterTests"/>
+      <class name="ui.VerifyTitleTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
+
+<!--//Creating test Suite(Group of testcases running together). We can make test suite by selecting the classes(Testcases) and Right-click, select TestNg and click convert to TestNG.
+-->
